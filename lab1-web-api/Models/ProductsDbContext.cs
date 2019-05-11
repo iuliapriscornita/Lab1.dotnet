@@ -8,8 +8,7 @@ namespace lab1_web_api.Models
 {
     public class ProductsDbContext : DbContext
     {
-        public ProductsDbContext(DbContextOptions<ProductsDbContext>options
-            ):base(options)
+        public ProductsDbContext(DbContextOptions<ProductsDbContext>options):base(options)
         {
 
         }
